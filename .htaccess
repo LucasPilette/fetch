@@ -1,0 +1,7 @@
+# links follow
+Options +FollowSymlinks 
+# rewrite Apache activate
+RewriteEngine On
+
+# /accueil -> /controllers/home-controller.php
+RewriteRule ^accueil$ /controllers/page-controller-home.php [L]
